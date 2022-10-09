@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:uilojadecompras/pages/home_page.dart';
+import 'package:uilojadecomidas/pages/home_page.dart';
 
 void main() {
   runApp(const MyApp());
