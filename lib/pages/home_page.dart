@@ -92,7 +92,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
           ),
-          bottomNavigationBar: HomeNavBar(),
+          bottomNavigationBar: const HomeNavBar(),
       ),
     );
   }
