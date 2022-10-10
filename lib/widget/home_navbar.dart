@@ -22,12 +22,12 @@ class HomeNavBar extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Icon(
+          const Icon(
             Icons.mail,
             color: Colors.white,
             size: 35,
           ),
-          Icon(
+          const Icon(
             Icons.favorite_outlined,
             size: 35,
             color: Colors.white,
@@ -51,12 +51,12 @@ class HomeNavBar extends StatelessWidget {
               size: 30,
             ),
           ),
-          Icon(
+          const Icon(
             Icons.notifications,
             size: 35,
             color: Colors.white,
           ),
-          Icon(
+          const Icon(
             Icons.person  ,
             size: 35,
             color: Colors.white,

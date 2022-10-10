@@ -13,8 +13,8 @@ class ItemsWidget extends StatelessWidget {
       children: [
         for(int i=1; i<5; i++)
           Container(
-            padding: EdgeInsets.symmetric(vertical: 5, horizontal: 10),
-            margin: EdgeInsets.symmetric(vertical: 8, horizontal: 15),
+            padding: const EdgeInsets.symmetric(vertical: 5, horizontal: 10),
+            margin: const EdgeInsets.symmetric(vertical: 8, horizontal: 15),
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(20),
               color: Color(0xFF232227),
@@ -30,7 +30,7 @@ class ItemsWidget extends StatelessWidget {
               children: [
                 InkWell(
                   onTap: (){
-                    Navigator.pushNamed(context, 'itemPage');
+                    Navigator.pushNamed(context, 'singleItemPage');
                   },
                   child: Container(
                     margin: EdgeInsets.all(10),

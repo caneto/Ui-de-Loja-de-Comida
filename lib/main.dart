@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:uilojadecomidas/pages/home_page.dart';
+import 'package:uilojadecomidas/pages/single_item_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -27,11 +28,12 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       title: 'UI de Compras de Mercado',
       theme: ThemeData(
-        scaffoldBackgroundColor: Color(0xFFF7F5F8),
+        scaffoldBackgroundColor: const Color(0xFFF7F5F8),
         primarySwatch: Colors.blue,
       ),
       routes: {
-        "/":(context) => HomePage(),
+        "/":(context) => const HomePage(),
+        "singleItemPage":(context) => SingleItemPage(),
       },
     );
   }
